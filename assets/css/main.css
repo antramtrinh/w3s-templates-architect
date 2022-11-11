@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 62.5%;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    /* margin: 10px 0; */
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.width100 {
+    width: 100% !important;
+}
+
+.gray-scale {
+    filter: grayscale(75%);
+}
+
+.main-container {
+    padding: 32px 17px;
+}
+
+.main-heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 2.4rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn {
+    border: none;
+    height: 39px;
+    color: #000;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+}
+
+.btn--black {
+    background-color: #000 ;
+    color: #fff ;
+}
+
+.btn:hover {
+    background-color: #ccc !important;
+}
+
+.btn--black:hover {
+    background-color: #ccc ;
+    color: #000 ;
+}
+
+.form-input {
+    font-size: 1.5rem;
+    padding: 11px;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.form-input + .form-input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 8px;
+}
+
+.col-four {
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Begin */
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    height: 54.5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 1px #ccc;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-item {
+    letter-spacing: 4px;
+}
+
+.header {
+    position: relative;
+}
+
+.header-heading {
+    display: inline;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40%;
+    font-size: 3.6rem;
+    color: #f1f1f1;
+    letter-spacing: 4px;
+}
+
+.header-highlight {
+    padding: 8px 16px;
+    font-weight: 750;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.main {
+    padding: 8px 16px;
+}
+
+/* Project */
+
+.project-item {
+    position: relative;
+}
+
+.project-name {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 8px;
+    border-top-left-radius: 4px;
+}
+
+/* ABout */
+
+.about-desc {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.about-member-name {
+    margin: 10px 0;
+    font-size: 2.4rem;
+}
+
+.about-position {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+
+.about-intro {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+/* Contact */
+
+.contact-desc {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.contact button {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* footer */
+
+.footer {
+    padding: 16px 0;
+    background-color: #000;
+    
+}
+
+.footer p {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+}
